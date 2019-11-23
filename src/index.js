@@ -6,7 +6,7 @@ function resolveWithValue (value) {
 	return new Promise(function (resolve) {
 		setTimeout(function () {
 			resolve(value)
-		}, 3000)
+		}, 5000)
 	})
 }
 
